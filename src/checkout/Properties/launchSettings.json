@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "checkout": {
+      "commandName": "Project"
+    },
+    "Dapr": {
+      "commandName": "Executable",
+      "executablePath": "C:\\dapr\\dapr.exe",
+      "commandLineArgs": "run --app-id checkout --resources-path ./components dotnet run",
+      "workingDirectory": "D:\\repos\\daprdemo\\src\\checkout"
+    }
+  }
+}
